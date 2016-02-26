@@ -34,7 +34,8 @@ This can be implemented using either a recursive (“top-down”) or an iterativ
 
 3.Both halves are merged:
  [4, 7, 4], [3, 9, 1, 2] -> [1, 2, 3, 4, 4, 7, 9]*/
-
+ 
+// need to comment the recursion
  function mergeSort(arr) {
 
      if (arr.length === 1) {
