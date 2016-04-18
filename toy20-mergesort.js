@@ -58,7 +58,7 @@ This can be implemented using either a recursive (“top-down”) or an iterativ
          if (left[0] < right[0]) {
              storage.push(left[0]);
               left = left.slice(1);
-         } else if (left[0] >= right[0]){
+         } else if (left[0] >= right[0]) {
              storage.push(right[0]);
              right = right.slice(1);
          }
